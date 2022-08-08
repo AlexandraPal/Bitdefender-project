@@ -1,0 +1,253 @@
+.product-card-image-container {
+  img {
+    width: 280px;
+  }
+}
+
+.product-tiles-container {
+  article:first-child {
+    margin-top: -130px;
+  }
+
+  article:nth-child(2) {
+    .product-card-feature-info {
+      svg {
+        color: $background-color-secondary;
+      }
+    }
+  }
+}
+
+.product-discount {
+  font-size: 9px;
+  left: 50px;
+  bottom: 30px;
+  background-color: $background-color-secondary;
+  color: $primary-text-color;
+  height: 12em;
+  width: 12em;
+  border-radius: 50%;
+  overflow: hidden;
+
+  .product-discount-value {
+    font-size: 4.4em;
+    line-height: 1;
+  }
+
+  .product-discount-text {
+    font-size: 16px;
+  }
+}
+
+.product-card-details-container {
+  border-radius: 5px;
+  box-shadow: 0 2px 10px 0 rgb(0 0 0 / 35%);
+  padding: 80px 15px 15px 20px;
+  margin-top: -85px;
+
+  .product-card-title {
+    font-size: 22px;
+    line-height: 1.2;
+  }
+
+  .product-card-subtitle {
+    color: $tertiary-text-color;
+    font-size: 14px;
+  }
+
+  .product-details-separation-border {
+    border: 1px solid #e30000;
+    width: 40%;
+    opacity: unset;
+  }
+
+  .product-card-os-protection {
+    font-size: 14px;
+    color: #333333;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+  .product-card-feature-info {
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 10px;
+
+    svg {
+      width: 1em;
+      height: 1em;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .product-card-tax-text,
+  .product-card-terms {
+    color: #999;
+    font-size: 12px;
+  }
+}
+
+.product-price-container {
+  table {
+    font-size: 14px;
+    color: #666;
+    tr {
+      td:nth-child(odd) {
+        text-align: left;
+      }
+      td:nth-child(even) {
+        text-align: right;
+      }
+    }
+
+    tr:nth-child(2) {
+      td:nth-child(2) {
+        .product-savings-badge {
+          color: $primary-text-color;
+          background: #20b53e;
+          border-radius: 5px;
+          padding: 2px 10px;
+        }
+      }
+    }
+
+    tr:nth-child(3) {
+      td:nth-child(1) {
+        font-size: 20px;
+        color: $secondary-text-color;
+      }
+      td:nth-child(2) {
+        font-size: 22px;
+        color: $secondary-text-color;
+      }
+    }
+
+    tr:nth-child(4) {
+      td:nth-child(2) {
+        font-size: 12px;
+        color: #999;
+      }
+    }
+  }
+}
+
+.product-card-button {
+  background: #e72325;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 13px;
+  font-size: 13px;
+  width: 100%;
+  cursor: pointer;
+
+  a {
+    color: $primary-text-color;
+  }
+}
+
+#product-upgrade-checkbox {
+  display: none;
+}
+
+.product-upgrade-text {
+  padding: 12px 42px;
+  cursor: pointer;
+  background: #eeeeee;
+  border-radius: 5px;
+  font-size: 12px;
+  display: block;
+  position: relative;
+
+  p:first-child {
+    background: $background-color-secondary;
+    padding: 3px 8px 3px 6px;
+    color: #fff;
+    border-radius: 50px;
+    margin-bottom: 5px;
+  }
+}
+
+.product-upgrade-text::before {
+  content: "";
+  width: 1em;
+  height: 1em;
+  font-size: 18px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #c4c4c4;
+  position: absolute;
+  left: 7px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.product-upgrade-text::after {
+  content: "";
+  position: absolute;
+  left: 30px;
+  height: 100%;
+  width: 1px;
+  top: 0;
+  background: #e3e3e3;
+}
+
+.product-card-perks {
+  font-size: 14px;
+
+  .product-card-perks-image {
+    img {
+      width: 40px;
+      margin-right: 10px;
+    }
+  }
+
+  ul {
+    li {
+      padding: 0 0 4px 45px;
+      position: relative;
+
+      svg {
+        position: absolute;
+        left: 0;
+        top: 3px;
+        font-size: 12px;
+        color: #20b53e;
+        width: 1em;
+        height: 1em;
+      }
+    }
+  }
+}
+
+.awards-container {
+  background: #f2f2f2;
+  padding: 30px 0;
+
+  img {
+    margin-bottom: 20px;
+  }
+
+  .pcmag-award-image {
+    width: 250px;
+  }
+
+  .avcomparatives-award-image {
+    width: 170px;
+  }
+
+  .award-quote {
+    font-size: 14px;
+    color: #ff9f00;
+    margin-bottom: 10px;
+  }
+
+  .award-date {
+    font-size: 11px;
+  }
+}
+

@@ -1,0 +1,28 @@
+.footer-container {
+  background-image: url("../images/footer-image-mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: $background-color-primary;
+  padding: 35px 0 40px 0;
+  z-index: 5;
+  position: relative;
+  font-size: 13px;
+  color: #999999;
+  padding-left: 15px;
+
+  .footer-links {
+    margin-top: 160px;
+
+    li {
+      display: inline-block;
+    }
+
+    a {
+      color: #999999;
+    }
+  }
+
+  .footer-copy {
+    color: #373737;
+  }
+}
