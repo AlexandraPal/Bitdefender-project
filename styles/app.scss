@@ -16,6 +16,9 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.page-width {
-  padding: 0 15px;
+@media (max-width: 768px) {
+  .page-width {
+    padding: 0 15px;
+  }
 }
+
